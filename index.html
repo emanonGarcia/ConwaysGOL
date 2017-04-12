@@ -4,15 +4,25 @@
     <title>Conway's Game of Life</title>
     <link rel="stylesheet" href="css/conway.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
 
   </head>
   <body oncontextmenu="return false;">
+    <div class='game-box'>
 
-    <input id="Start" type="button" value="Start" onclick="start();" />
-    <input id="Stop" type="button" value="Stop" onclick="stop();" />
-    <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;">
-      Go get Chrome!!!
-    </canvas>
+      <div class='canvas-head'><h1>Conway's Game of Life</h1></div>
+
+      <canvas id="myCanvas" width="500" height="500" ;> <!---style="border:2px solid #000000"-->
+        Go get Chrome!!!
+      </canvas>
+
+      <div class='game-btn'>
+        <input id="Start" type="button" value="Start" onclick="start();" />
+        <input type="button" value="Refresh" onClick="history.go(0)">
+        <input id="Stop" type="button" value="Stop" onclick="stop();" />
+      </div>
+    </div>
 
     <script src="js/conway.js"></script>
   </body>

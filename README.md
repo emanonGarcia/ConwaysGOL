@@ -1,4 +1,5 @@
 # Conway's Game Of Life
+
 John Conway is an acclaimed mathematician and the creator of the cellular automaton Game of Life.
 "The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves, or, for advanced "players", by creating patterns with particular properties." src [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
@@ -6,7 +7,7 @@ Here I have created an animation using Javascript, and HTML that demonstrates Co
 
 ### Prerequisites
 
-I use an HTML canvas to illustrate this project, therefore the only prerequisite would be is use Google chrome to open conway.html
+I used an HTML canvas to illustrate this project, therefore the only prerequisite would be use Google chrome to open conway.html
 
 ### Installing
 
@@ -20,7 +21,7 @@ It's as simple as that. Please enjoy and offer any feedback
 ## Built With
 
 * [Javascript](https://www.javascript.com/)
-* [html canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - Canvas API
+* [Html Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - Canvas API
 
 ## Authors
 

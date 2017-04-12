@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.game-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.canvas-head {
+  display: flex;
+  justify-content: center;
+}
+
+.game-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+#myCanvas {
+  border: .1em solid #000000;
+}
